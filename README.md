@@ -53,31 +53,17 @@ $ yarn build
 
 <br>
 
-### 📝 기능 목록 명세
-
-#### ✔ 김지영
-
-- 프로젝트 기초 세팅
-- favicon 및 메타정보 설정
-- `Dropdowns`, `Swiper` 컴포넌트 구현
-- `contacts` 페이지 구현
-
-#### ✔ 고병표
-
-- `button`, `Header`, `Drawer` 컴포넌트 구현
-- `main` 페이지 구현
-
-#### ✔ 유제호
+### 📝 담당 기능 목록
 
 - `NavigationBar`, `ProductionList` 컴포넌트 구현
+  - 비슷한 디자인에 여러곳에서 재사용될 수 있는 컴포넌트를 구현
+  - 컴포넌트를 설계하면서 디자인이 비슷하다고 해서 같은 컴포넌트로 묶는게 아닌 기능별로 구분해서 개발해야하는 것등 컴포넌트 단위 개발에 대한 이해도 증가
 - `categories/brands` 페이지 구현
+  - 각 페이지의 기능을 생각하면서 기능에 맞게 `SSR/SSG/ISR`등을 적용하려는 노력
 - 각 페이지 api 로직 구현
-- 배포
-
-#### ✔ 홍수연
-
-- `OptionBox`, `CategoryList` 컴포넌트 구현
-- `items` 페이지 구현
+  - nextjs 프레임워크 특성상 staticProps나 serverSideProps로 프리렌더링해서 페이지를 미리 그려야하는데 그 과정을 담당
+  - 구현하는 과정에서 서버에서 받아오는 데이터를 어떻게 관리해야하는지에 대한 고민을 하게됨
+- vercel을 이용한 next 배포
 
 <br>
 <br>
